@@ -108,7 +108,10 @@ export default function Home() {
       {/* Seção Projetos */}
       <section id="projetos" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold mb-12 text-center text-brand-blue">Projetos Relevantes</h2>
+          <h2 className="text-3xl font-bold mb-4 text-center text-brand-blue">Projetos Relevantes</h2>
+          <p className="text-center text-gray-400 text-sm mb-12 max-w-2xl mx-auto italic">
+            * As ilustrações dos projetos abaixo foram geradas artificialmente pelo Google Gemini, baseadas em imagens reais para fins de apresentação do portfólio.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
               title="Sistema de Portaria Inteligente e Controle de Acesso"
