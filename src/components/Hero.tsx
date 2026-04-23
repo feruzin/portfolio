@@ -14,6 +14,10 @@ export default function Hero() {
           <a href="#projetos" className="bg-brand-blue hover:bg-brand-blue-dark text-white px-8 py-3 rounded-full font-medium transition-all shadow-[0_0_20px_rgba(59,130,246,0.4)] hover:shadow-[0_0_30px_rgba(59,130,246,0.6)]">
             Ver Meus Projetos
           </a>
+          <a href="/curriculo-felipe-ruzin.pdf" download="Curriculo_Felipe_Ruzin.pdf" className="bg-surface hover:bg-surface-hover border border-border text-foreground px-8 py-3 rounded-full font-medium transition-all flex items-center justify-center gap-2">
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+            Baixar Currículo
+          </a>
           <a href="#contato" className="bg-surface hover:bg-surface-hover border border-border text-foreground px-8 py-3 rounded-full font-medium transition-all">
             Entre em Contato
           </a>

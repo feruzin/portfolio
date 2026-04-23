@@ -77,10 +77,10 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-12 text-center text-brand-blue">Formação Acadêmica</h2>
           <div>
             <TimelineItem
-              title="Especialização em Sistemas Embarcados"
+              title="Especialização em Sistemas Embarcados para a Indústria Automotiva"
               subtitle="UTFPR - Curitiba/PR"
               date="Previsão 12/2027"
-              description="Foco em Sistemas Embarcados para a Indústria Automotiva, aprofundando em arquiteturas de controle e instrumentação."
+              description="Foco em Sistemas Embarcados, aprofundando em arquiteturas de controle e instrumentação."
             />
             <TimelineItem
               title="Engenharia da Computação"
