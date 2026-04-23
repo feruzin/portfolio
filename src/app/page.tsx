@@ -140,7 +140,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6 text-brand-blue">Vamos Conversar?</h2>
           <p className="text-lg text-gray-400 mb-10">
-            Estou sempre aberto a novas oportunidades e desafios envolvendo desenvolvimento, IoT e redes.
+            Estou sempre aberto a novas oportunidades e desafios envolvendo desenvolvimento, IoT e hardware.
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-12">
             <a href="mailto:fruzin2002@gmail.com" className="flex items-center text-gray-300 hover:text-brand-blue transition-colors">
