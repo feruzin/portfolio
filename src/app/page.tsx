@@ -125,7 +125,7 @@ export default function Home() {
             <ProjectCard
               title="Outros Projetos Acadêmicos"
               description="Robótica (Seguidor de linha e Summobot), eletrônica de potência (Ponte H, Fonte ATX), instrumentação (Eletrocardiograma), esquemático de carregador para veículos elétricos e sistema de delivery em Go e AWS."
-              imageSrc="/projeto_academicos_new.png"
+              imageSrc="/projeto_academicos_v3.png"
               tags={["Robótica", "PCB", "Golang", "AWS", "Eletrônica"]}
             />
           </div>
