@@ -113,19 +113,19 @@ export default function Home() {
             <ProjectCard
               title="Sistema de Portaria Inteligente e Controle de Acesso"
               description="Solução completa de automação de segurança com integração entre hardware industrial e software. Implementação de sistema LPR utilizando YOLO e OCR para identificação veicular via fluxos RTSP. Integração via API com terminais de reconhecimento facial Hikvision. Plataforma em Next.js e orquestração com Docker."
-              imageSrc="/projeto_portaria.png"
+              imageSrc="/projeto_portaria_new.jpg"
               tags={["Next.js", "Docker", "YOLO", "OCR", "IoT", "Hikvision API"]}
             />
             <ProjectCard
               title="Miniestufa Inteligente (TCC)"
               description="Sistema de monitoramento e automação utilizando ESP32 para coleta de dados e Raspberry Pi como unidade de processamento central. Integração de sensores ambientais para controle de microclima e tomada de decisão automatizada."
-              imageSrc="/projeto_estufa.png"
+              imageSrc="/projeto_estufa_new.png"
               tags={["ESP32", "Raspberry Pi", "IoT", "Sensores"]}
             />
             <ProjectCard
               title="Outros Projetos Acadêmicos"
               description="Robótica (Seguidor de linha e Summobot), eletrônica de potência (Ponte H, Fonte ATX), instrumentação (Eletrocardiograma), esquemático de carregador para veículos elétricos e sistema de delivery em Go e AWS."
-              imageSrc="/projeto_portaria.png"
+              imageSrc="/projeto_academicos_new.png"
               tags={["Robótica", "PCB", "Golang", "AWS", "Eletrônica"]}
             />
           </div>
