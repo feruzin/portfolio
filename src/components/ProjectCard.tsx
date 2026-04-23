@@ -22,7 +22,7 @@ export default function ProjectCard({ title, description, imageSrc, tags, link }
       </div>
       <div className="p-6 flex flex-col flex-grow">
         <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-brand-blue transition-colors">{title}</h3>
-        <p className="text-gray-400 text-sm mb-6 flex-grow">{description}</p>
+        <p className="text-gray-400 text-sm mb-6 flex-grow text-justify">{description}</p>
         <div className="flex flex-wrap gap-2 mb-4">
           {tags.map((tag, index) => (
             <span key={index} className="px-3 py-1 bg-background text-brand-blue-light text-xs font-medium rounded-full border border-border">
