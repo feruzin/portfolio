@@ -48,6 +48,42 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Seção Projetos */}
+      <section id="projetos" className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold mb-12 text-center text-brand-blue">Projetos Relevantes</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <ProjectCard
+              title="Sistema de Portaria Inteligente e Controle de Acesso"
+              description="Solução completa de automação de segurança com integração entre hardware industrial e software. Implementação de sistema LPR utilizando YOLO e OCR para identificação veicular via fluxos RTSP. Integração via API com terminais de reconhecimento facial Hikvision. Plataforma em Next.js e orquestração com Docker."
+              imageSrc="/projeto_portaria_new.jpg"
+              tags={["Next.js", "Docker", "YOLO", "OCR", "IoT", "Hikvision API"]}
+            />
+            <ProjectCard
+              title="Aplicativo SIP e Servidor de Intercomunicação"
+              description="Desenvolvimento de um aplicativo mobile em React Native com módulos nativos em Kotlin para gerenciamento de chamadas SIP/WebRTC. Integração com Firebase Push Notifications, servidor Asterisk e terminais faciais Hikvision para comunicação bidirecional em tempo real."
+              imageSrc="/projeto_sip_infra.png"
+              tags={["React Native", "Kotlin", "SIP / WebRTC", "Asterisk", "Firebase"]}
+            />
+            <ProjectCard
+              title="Miniestufa Inteligente (TCC)"
+              description="Sistema de monitoramento e automação utilizando ESP32 para coleta de dados e Raspberry Pi como unidade de processamento central. Integração de sensores ambientais para controle de microclima e tomada de decisão automatizada."
+              imageSrc="/projeto_estufa_new.png"
+              tags={["ESP32", "Raspberry Pi", "IoT", "Sensores"]}
+            />
+            <ProjectCard
+              title="Outros Projetos Acadêmicos"
+              description="Robótica (Seguidor de linha e Summobot), eletrônica de potência (Ponte H, Fonte ATX), instrumentação (Eletrocardiograma), esquemático de carregador para veículos elétricos e sistema de delivery em Go e AWS."
+              imageSrc="/projeto_academicos_v3.png"
+              tags={["Robótica", "PCB", "Golang", "AWS", "Eletrônica"]}
+            />
+          </div>
+          <p className="text-center text-gray-500 text-sm mt-10 italic">
+            * As ilustrações acima foram geradas artificialmente pelo Google Gemini, baseadas em imagens reais para fins de apresentação do portfólio.
+          </p>
+        </div>
+      </section>
+
       {/* Seção Experiência & Formação */}
       <section id="experiencia" className="py-20 relative">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -102,36 +138,6 @@ export default function Home() {
               <SkillBadge key={index} name={skill.name} />
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Seção Projetos */}
-      <section id="projetos" className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold mb-12 text-center text-brand-blue">Projetos Relevantes</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <ProjectCard
-              title="Sistema de Portaria Inteligente e Controle de Acesso"
-              description="Solução completa de automação de segurança com integração entre hardware industrial e software. Implementação de sistema LPR utilizando YOLO e OCR para identificação veicular via fluxos RTSP. Integração via API com terminais de reconhecimento facial Hikvision. Plataforma em Next.js e orquestração com Docker."
-              imageSrc="/projeto_portaria_new.jpg"
-              tags={["Next.js", "Docker", "YOLO", "OCR", "IoT", "Hikvision API"]}
-            />
-            <ProjectCard
-              title="Miniestufa Inteligente (TCC)"
-              description="Sistema de monitoramento e automação utilizando ESP32 para coleta de dados e Raspberry Pi como unidade de processamento central. Integração de sensores ambientais para controle de microclima e tomada de decisão automatizada."
-              imageSrc="/projeto_estufa_new.png"
-              tags={["ESP32", "Raspberry Pi", "IoT", "Sensores"]}
-            />
-            <ProjectCard
-              title="Outros Projetos Acadêmicos"
-              description="Robótica (Seguidor de linha e Summobot), eletrônica de potência (Ponte H, Fonte ATX), instrumentação (Eletrocardiograma), esquemático de carregador para veículos elétricos e sistema de delivery em Go e AWS."
-              imageSrc="/projeto_academicos_v3.png"
-              tags={["Robótica", "PCB", "Golang", "AWS", "Eletrônica"]}
-            />
-          </div>
-          <p className="text-center text-gray-500 text-sm mt-10 italic">
-            * As ilustrações acima foram geradas artificialmente pelo Google Gemini, baseadas em imagens reais para fins de apresentação do portfólio.
-          </p>
         </div>
       </section>
 
