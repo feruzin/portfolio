@@ -6,14 +6,11 @@ import SkillBadge from "@/components/SkillBadge";
 
 export default function Home() {
   const skills = [
-    { name: "C", category: "Linguagens" },
-    { name: "C++", category: "Linguagens" },
+    { name: "C / C++", category: "Linguagens" },
     { name: "Python", category: "Linguagens" },
     { name: "Go", category: "Linguagens" },
     { name: "SQL (PostgreSQL/Supabase)", category: "Linguagens" },
-    { name: "Arduino", category: "IoT" },
-    { name: "ESP32", category: "IoT" },
-    { name: "STM32", category: "IoT" },
+    { name: "Arduino / ESP32 / STM32", category: "Microcontroladores" },
     { name: "Raspberry Pi", category: "IoT" },
     { name: "RTSP / SIP / MQTT", category: "Protocolos" },
     { name: "Eletrônica Analógica/Digital", category: "Hardware" },
